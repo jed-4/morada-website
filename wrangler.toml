@@ -2,5 +2,9 @@ name = "morada-website"
 account_id = "7db6ba484527a3eec7fe6f1c1f1487bb"
 compatibility_date = "2024-01-01"
 
+routes = [
+  { pattern = "moradaco.com.au/*", zone_name = "moradaco.com.au" }
+]
+
 [assets]
 directory = "./"
